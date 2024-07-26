@@ -38,6 +38,7 @@
             btn_capnhat = new Button();
             btn_Them = new Button();
             groupBox2 = new GroupBox();
+            dataGridView1 = new DataGridView();
             groupBox1 = new GroupBox();
             textBox2 = new TextBox();
             label2 = new Label();
@@ -49,13 +50,12 @@
             lb_tensach = new Label();
             lb_tacgia = new Label();
             lb_masach = new Label();
-            dataGridView1 = new DataGridView();
             grpmenu.SuspendLayout();
             groupBox4.SuspendLayout();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
-            groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // grpmenu
@@ -159,6 +159,15 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "Thông tin";
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(35, 21);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(996, 188);
+            dataGridView1.TabIndex = 0;
+            // 
             // groupBox1
             // 
             groupBox1.Controls.Add(textBox2);
@@ -258,15 +267,6 @@
             lb_masach.TabIndex = 0;
             lb_masach.Text = "Mã nhân viên";
             // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(35, 21);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(996, 188);
-            dataGridView1.TabIndex = 0;
-            // 
             // NhanVienCon1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -281,9 +281,9 @@
             groupBox4.PerformLayout();
             groupBox3.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
