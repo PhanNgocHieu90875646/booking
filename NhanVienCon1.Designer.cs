@@ -276,6 +276,7 @@
             Controls.Add(grpmenu);
             Name = "NhanVienCon1";
             Text = "NhanVienCon1";
+            Load += NhanVienCon1_Load;
             grpmenu.ResumeLayout(false);
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();

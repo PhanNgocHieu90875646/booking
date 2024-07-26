@@ -14,7 +14,13 @@ namespace booking
     {
         public NhanVienCon1()
         {
+            
             InitializeComponent();
+        }
+
+        private void NhanVienCon1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
