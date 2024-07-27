@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btntrangChu = new Button();
             grpmenu = new GroupBox();
             groupBox4 = new GroupBox();
             txt_timkiem = new TextBox();
@@ -49,6 +48,7 @@
             lb_tensach = new Label();
             lb_tacgia = new Label();
             lb_masach = new Label();
+            btntrangChu = new Button();
             grpmenu.SuspendLayout();
             groupBox4.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -57,20 +57,10 @@
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
-            // btntrangChu
-            // 
-            btntrangChu.BackColor = Color.IndianRed;
-            btntrangChu.Location = new Point(1321, 32);
-            btntrangChu.Name = "btntrangChu";
-            btntrangChu.Size = new Size(116, 47);
-            btntrangChu.TabIndex = 22;
-            btntrangChu.Text = "Thêm món";
-            btntrangChu.UseVisualStyleBackColor = false;
-            btntrangChu.Click += btntrangChu_Click;
-            // 
             // grpmenu
             // 
             grpmenu.Controls.Add(groupBox4);
+            grpmenu.Controls.Add(btntrangChu);
             grpmenu.Controls.Add(groupBox3);
             grpmenu.Controls.Add(groupBox2);
             grpmenu.Controls.Add(groupBox1);
@@ -116,9 +106,9 @@
             groupBox3.Controls.Add(btn_xoa);
             groupBox3.Controls.Add(btn_capnhat);
             groupBox3.Controls.Add(btn_Them);
-            groupBox3.Location = new Point(116, 436);
+            groupBox3.Location = new Point(110, 436);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(416, 77);
+            groupBox3.Size = new Size(422, 77);
             groupBox3.TabIndex = 21;
             groupBox3.TabStop = false;
             groupBox3.Text = "Cập nhập";
@@ -259,6 +249,17 @@
             lb_masach.TabIndex = 0;
             lb_masach.Text = "Mã bàn";
             // 
+            // btntrangChu
+            // 
+            btntrangChu.BackColor = Color.IndianRed;
+            btntrangChu.Location = new Point(1000, 549);
+            btntrangChu.Name = "btntrangChu";
+            btntrangChu.Size = new Size(116, 47);
+            btntrangChu.TabIndex = 22;
+            btntrangChu.Text = "Đặt bàn";
+            btntrangChu.UseVisualStyleBackColor = false;
+            btntrangChu.Click += btntrangChu_Click;
+            // 
             // Ban
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -266,7 +267,6 @@
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1661, 973);
             Controls.Add(grpmenu);
-            Controls.Add(btntrangChu);
             Name = "Ban";
             Text = "Ban";
             grpmenu.ResumeLayout(false);
@@ -281,8 +281,6 @@
         }
 
         #endregion
-
-        private Button btntrangChu;
         private GroupBox grpmenu;
         private GroupBox groupBox4;
         private TextBox txt_timkiem;
@@ -303,5 +301,6 @@
         private Label lb_tensach;
         private Label lb_tacgia;
         private Label lb_masach;
+        private Button btntrangChu;
     }
 }

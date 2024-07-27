@@ -37,12 +37,14 @@
             pictureBox5 = new PictureBox();
             btntrangChu = new Button();
             grpmenu = new GroupBox();
+            button3 = new Button();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             SuspendLayout();
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(button3);
             groupBox1.Controls.Add(button2);
             groupBox1.Controls.Add(button1);
             groupBox1.Controls.Add(button6);
@@ -63,7 +65,7 @@
             button2.Name = "button2";
             button2.Size = new Size(217, 88);
             button2.TabIndex = 13;
-            button2.Text = "77";
+            button2.Text = "Liên hệ";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
@@ -130,7 +132,18 @@
             grpmenu.Size = new Size(1312, 875);
             grpmenu.TabIndex = 24;
             grpmenu.TabStop = false;
-            grpmenu.Text = "77";
+            grpmenu.Text = "Thông tin nhà hàng";
+            // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.ActiveCaption;
+            button3.Location = new Point(-1, 579);
+            button3.Name = "button3";
+            button3.Size = new Size(217, 88);
+            button3.TabIndex = 14;
+            button3.Text = "Đăng kí";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // TrangChu
             // 
@@ -157,5 +170,6 @@
         private GroupBox grpmenu;
         private Button button1;
         private Button button2;
+        private Button button3;
     }
 }

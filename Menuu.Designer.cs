@@ -28,275 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menuu));
-            grpmenu = new GroupBox();
-            groupBox4 = new GroupBox();
-            label4 = new Label();
-            label6 = new Label();
-            button8 = new Button();
-            pictureBox3 = new PictureBox();
-            groupBox3 = new GroupBox();
-            label2 = new Label();
-            label3 = new Label();
-            button7 = new Button();
-            pictureBox1 = new PictureBox();
-            groupBox5 = new GroupBox();
-            label7 = new Label();
-            label8 = new Label();
-            button9 = new Button();
-            pictureBox4 = new PictureBox();
-            groupBox2 = new GroupBox();
-            label5 = new Label();
-            label1 = new Label();
-            btnorder1 = new Button();
-            pictureBox2 = new PictureBox();
             btndatBan = new Button();
-            grpmenu.SuspendLayout();
-            groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            btntrangChu = new Button();
+            textBox2 = new TextBox();
+            label2 = new Label();
+            txt_tensach = new TextBox();
+            txt_tacgia = new TextBox();
+            txt_masach = new TextBox();
+            lb_tensach = new Label();
+            lb_tacgia = new Label();
+            groupBox1 = new GroupBox();
+            lb_masach = new Label();
+            dataGridView1 = new DataGridView();
+            btn_lammoi = new Button();
+            btn_xoa = new Button();
+            btn_capnhat = new Button();
+            btn_Them = new Button();
+            groupBox3 = new GroupBox();
+            txt_timkiem = new TextBox();
+            btn_timkiem = new Button();
+            groupBox4 = new GroupBox();
+            groupBox2 = new GroupBox();
+            grpmenu = new GroupBox();
+            groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            groupBox4.SuspendLayout();
             groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            grpmenu.SuspendLayout();
             SuspendLayout();
-            // 
-            // grpmenu
-            // 
-            grpmenu.Controls.Add(groupBox4);
-            grpmenu.Controls.Add(groupBox3);
-            grpmenu.Controls.Add(groupBox5);
-            grpmenu.Controls.Add(groupBox2);
-            grpmenu.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            grpmenu.Location = new Point(174, 49);
-            grpmenu.Name = "grpmenu";
-            grpmenu.Size = new Size(1312, 875);
-            grpmenu.TabIndex = 25;
-            grpmenu.TabStop = false;
-            grpmenu.Text = "Menu";
-            // 
-            // groupBox4
-            // 
-            groupBox4.BackColor = SystemColors.Window;
-            groupBox4.Controls.Add(label4);
-            groupBox4.Controls.Add(label6);
-            groupBox4.Controls.Add(button8);
-            groupBox4.Controls.Add(pictureBox3);
-            groupBox4.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            groupBox4.Location = new Point(514, 326);
-            groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(388, 265);
-            groupBox4.TabIndex = 17;
-            groupBox4.TabStop = false;
-            groupBox4.Text = "Tên món 1";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(335, 23);
-            label4.Name = "label4";
-            label4.Size = new Size(33, 20);
-            label4.TabIndex = 10;
-            label4.Text = "GIá";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 9F);
-            label6.Location = new Point(223, 83);
-            label6.Name = "label6";
-            label6.Size = new Size(145, 40);
-            label6.TabIndex = 7;
-            label6.Text = "Thông tin về món ăn\r\n(Nguyên liệu giá...)";
-            // 
-            // button8
-            // 
-            button8.Location = new Point(243, 187);
-            button8.Name = "button8";
-            button8.Size = new Size(109, 43);
-            button8.TabIndex = 6;
-            button8.Text = "Order";
-            button8.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
-            pictureBox3.BackgroundImageLayout = ImageLayout.Center;
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(6, 35);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(205, 205);
-            pictureBox3.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox3.TabIndex = 6;
-            pictureBox3.TabStop = false;
-            // 
-            // groupBox3
-            // 
-            groupBox3.BackColor = SystemColors.Window;
-            groupBox3.Controls.Add(label2);
-            groupBox3.Controls.Add(label3);
-            groupBox3.Controls.Add(button7);
-            groupBox3.Controls.Add(pictureBox1);
-            groupBox3.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            groupBox3.Location = new Point(514, 26);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(388, 265);
-            groupBox3.TabIndex = 15;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Tên món 1";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(335, 23);
-            label2.Name = "label2";
-            label2.Size = new Size(33, 20);
-            label2.TabIndex = 10;
-            label2.Text = "GIá";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 9F);
-            label3.Location = new Point(223, 83);
-            label3.Name = "label3";
-            label3.Size = new Size(145, 40);
-            label3.TabIndex = 7;
-            label3.Text = "Thông tin về món ăn\r\n(Nguyên liệu giá...)";
-            // 
-            // button7
-            // 
-            button7.Location = new Point(243, 187);
-            button7.Name = "button7";
-            button7.Size = new Size(109, 43);
-            button7.TabIndex = 6;
-            button7.Text = "Order";
-            button7.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.BackgroundImageLayout = ImageLayout.Center;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(6, 35);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(205, 205);
-            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox1.TabIndex = 6;
-            pictureBox1.TabStop = false;
-            // 
-            // groupBox5
-            // 
-            groupBox5.BackColor = SystemColors.Window;
-            groupBox5.Controls.Add(label7);
-            groupBox5.Controls.Add(label8);
-            groupBox5.Controls.Add(button9);
-            groupBox5.Controls.Add(pictureBox4);
-            groupBox5.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            groupBox5.Location = new Point(17, 326);
-            groupBox5.Name = "groupBox5";
-            groupBox5.Size = new Size(388, 265);
-            groupBox5.TabIndex = 16;
-            groupBox5.TabStop = false;
-            groupBox5.Text = "Tên món 1";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(335, 23);
-            label7.Name = "label7";
-            label7.Size = new Size(33, 20);
-            label7.TabIndex = 10;
-            label7.Text = "GIá";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 9F);
-            label8.Location = new Point(223, 83);
-            label8.Name = "label8";
-            label8.Size = new Size(145, 40);
-            label8.TabIndex = 7;
-            label8.Text = "Thông tin về món ăn\r\n(Nguyên liệu giá...)";
-            // 
-            // button9
-            // 
-            button9.Location = new Point(243, 187);
-            button9.Name = "button9";
-            button9.Size = new Size(109, 43);
-            button9.TabIndex = 6;
-            button9.Text = "Order";
-            button9.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.BackgroundImageLayout = ImageLayout.Center;
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(6, 35);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(205, 205);
-            pictureBox4.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox4.TabIndex = 6;
-            pictureBox4.TabStop = false;
-            // 
-            // groupBox2
-            // 
-            groupBox2.BackColor = SystemColors.Window;
-            groupBox2.Controls.Add(label5);
-            groupBox2.Controls.Add(label1);
-            groupBox2.Controls.Add(btnorder1);
-            groupBox2.Controls.Add(pictureBox2);
-            groupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            groupBox2.Location = new Point(17, 26);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(388, 265);
-            groupBox2.TabIndex = 14;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Tên món 1";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(335, 23);
-            label5.Name = "label5";
-            label5.Size = new Size(33, 20);
-            label5.TabIndex = 10;
-            label5.Text = "GIá";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F);
-            label1.Location = new Point(223, 83);
-            label1.Name = "label1";
-            label1.Size = new Size(145, 40);
-            label1.TabIndex = 7;
-            label1.Text = "Thông tin về món ăn\r\n(Nguyên liệu giá...)";
-            // 
-            // btnorder1
-            // 
-            btnorder1.FlatAppearance.BorderColor = Color.FromArgb(255, 128, 128);
-            btnorder1.FlatAppearance.BorderSize = 10;
-            btnorder1.Location = new Point(243, 187);
-            btnorder1.Name = "btnorder1";
-            btnorder1.Size = new Size(109, 43);
-            btnorder1.TabIndex = 6;
-            btnorder1.Text = "Order";
-            btnorder1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.BackgroundImageLayout = ImageLayout.Center;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(6, 35);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(205, 205);
-            pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
-            pictureBox2.TabIndex = 6;
-            pictureBox2.TabStop = false;
             // 
             // btndatBan
             // 
@@ -309,55 +69,251 @@
             btndatBan.Text = "Thêm món";
             btndatBan.UseVisualStyleBackColor = false;
             // 
+            // btntrangChu
+            // 
+            btntrangChu.BackColor = Color.IndianRed;
+            btntrangChu.Location = new Point(1000, 549);
+            btntrangChu.Name = "btntrangChu";
+            btntrangChu.Size = new Size(116, 47);
+            btntrangChu.TabIndex = 22;
+            btntrangChu.Text = "Đặt bàn";
+            btntrangChu.UseVisualStyleBackColor = false;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(761, 59);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(270, 27);
+            textBox2.TabIndex = 14;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(761, 36);
+            label2.Name = "label2";
+            label2.Size = new Size(74, 20);
+            label2.TabIndex = 12;
+            label2.Text = "Thời gian";
+            // 
+            // txt_tensach
+            // 
+            txt_tensach.Location = new Point(410, 59);
+            txt_tensach.Name = "txt_tensach";
+            txt_tensach.Size = new Size(296, 27);
+            txt_tensach.TabIndex = 8;
+            // 
+            // txt_tacgia
+            // 
+            txt_tacgia.Location = new Point(69, 129);
+            txt_tacgia.Name = "txt_tacgia";
+            txt_tacgia.Size = new Size(287, 27);
+            txt_tacgia.TabIndex = 7;
+            // 
+            // txt_masach
+            // 
+            txt_masach.Location = new Point(69, 59);
+            txt_masach.Name = "txt_masach";
+            txt_masach.Size = new Size(287, 27);
+            txt_masach.TabIndex = 6;
+            // 
+            // lb_tensach
+            // 
+            lb_tensach.AutoSize = true;
+            lb_tensach.Location = new Point(410, 36);
+            lb_tensach.Name = "lb_tensach";
+            lb_tensach.Size = new Size(71, 20);
+            lb_tensach.TabIndex = 2;
+            lb_tensach.Text = "Số lượng";
+            // 
+            // lb_tacgia
+            // 
+            lb_tacgia.AutoSize = true;
+            lb_tacgia.Location = new Point(69, 106);
+            lb_tacgia.Name = "lb_tacgia";
+            lb_tacgia.Size = new Size(80, 20);
+            lb_tacgia.TabIndex = 1;
+            lb_tacgia.Text = "Trạng thái";
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(textBox2);
+            groupBox1.Controls.Add(label2);
+            groupBox1.Controls.Add(txt_tensach);
+            groupBox1.Controls.Add(txt_tacgia);
+            groupBox1.Controls.Add(txt_masach);
+            groupBox1.Controls.Add(lb_tensach);
+            groupBox1.Controls.Add(lb_tacgia);
+            groupBox1.Controls.Add(lb_masach);
+            groupBox1.Location = new Point(110, 34);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(1070, 174);
+            groupBox1.TabIndex = 18;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Thông tin bàn";
+            // 
+            // lb_masach
+            // 
+            lb_masach.AutoSize = true;
+            lb_masach.Location = new Point(69, 36);
+            lb_masach.Name = "lb_masach";
+            lb_masach.Size = new Size(61, 20);
+            lb_masach.TabIndex = 0;
+            lb_masach.Text = "Mã bàn";
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(35, 21);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(996, 188);
+            dataGridView1.TabIndex = 0;
+            // 
+            // btn_lammoi
+            // 
+            btn_lammoi.Location = new Point(312, 32);
+            btn_lammoi.Name = "btn_lammoi";
+            btn_lammoi.Size = new Size(94, 29);
+            btn_lammoi.TabIndex = 3;
+            btn_lammoi.Text = "Làm mới";
+            btn_lammoi.UseVisualStyleBackColor = true;
+            // 
+            // btn_xoa
+            // 
+            btn_xoa.Location = new Point(212, 32);
+            btn_xoa.Name = "btn_xoa";
+            btn_xoa.Size = new Size(94, 29);
+            btn_xoa.TabIndex = 2;
+            btn_xoa.Text = "Xóa";
+            btn_xoa.UseVisualStyleBackColor = true;
+            // 
+            // btn_capnhat
+            // 
+            btn_capnhat.Location = new Point(112, 32);
+            btn_capnhat.Name = "btn_capnhat";
+            btn_capnhat.Size = new Size(94, 29);
+            btn_capnhat.TabIndex = 1;
+            btn_capnhat.Text = "Cập nhật";
+            btn_capnhat.UseVisualStyleBackColor = true;
+            // 
+            // btn_Them
+            // 
+            btn_Them.Location = new Point(12, 32);
+            btn_Them.Name = "btn_Them";
+            btn_Them.Size = new Size(94, 29);
+            btn_Them.TabIndex = 0;
+            btn_Them.Text = "Thêm";
+            btn_Them.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            groupBox3.Controls.Add(btn_lammoi);
+            groupBox3.Controls.Add(btn_xoa);
+            groupBox3.Controls.Add(btn_capnhat);
+            groupBox3.Controls.Add(btn_Them);
+            groupBox3.Location = new Point(110, 436);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(422, 77);
+            groupBox3.TabIndex = 21;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Cập nhập";
+            // 
+            // txt_timkiem
+            // 
+            txt_timkiem.Location = new Point(13, 33);
+            txt_timkiem.Name = "txt_timkiem";
+            txt_timkiem.Size = new Size(498, 27);
+            txt_timkiem.TabIndex = 12;
+            // 
+            // btn_timkiem
+            // 
+            btn_timkiem.BackColor = Color.White;
+            btn_timkiem.Location = new Point(545, 32);
+            btn_timkiem.Name = "btn_timkiem";
+            btn_timkiem.Size = new Size(79, 29);
+            btn_timkiem.TabIndex = 4;
+            btn_timkiem.Text = "Tìm kiếm";
+            btn_timkiem.UseVisualStyleBackColor = false;
+            // 
+            // groupBox4
+            // 
+            groupBox4.Controls.Add(txt_timkiem);
+            groupBox4.Controls.Add(btn_timkiem);
+            groupBox4.Location = new Point(556, 436);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(634, 77);
+            groupBox4.TabIndex = 19;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "Tìm kiếm";
+            // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(dataGridView1);
+            groupBox2.Location = new Point(110, 214);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(1070, 215);
+            groupBox2.TabIndex = 20;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Thông tin";
+            // 
+            // grpmenu
+            // 
+            grpmenu.Controls.Add(groupBox4);
+            grpmenu.Controls.Add(btntrangChu);
+            grpmenu.Controls.Add(groupBox3);
+            grpmenu.Controls.Add(groupBox2);
+            grpmenu.Controls.Add(groupBox1);
+            grpmenu.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            grpmenu.Location = new Point(129, 149);
+            grpmenu.Name = "grpmenu";
+            grpmenu.Size = new Size(1403, 675);
+            grpmenu.TabIndex = 28;
+            grpmenu.TabStop = false;
+            grpmenu.Text = "Thông tin món";
+            // 
             // Menuu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1661, 973);
-            Controls.Add(btndatBan);
             Controls.Add(grpmenu);
+            Controls.Add(btndatBan);
             Name = "Menuu";
             Text = "Trangchu";
-            grpmenu.ResumeLayout(false);
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            groupBox3.ResumeLayout(false);
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            groupBox3.ResumeLayout(false);
-            groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            groupBox5.ResumeLayout(false);
-            groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            grpmenu.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
-
-        private GroupBox grpmenu;
-        private GroupBox groupBox4;
-        private Label label4;
-        private Label label6;
-        private Button button8;
-        private PictureBox pictureBox3;
-        private GroupBox groupBox3;
-        private Label label2;
-        private Label label3;
-        private Button button7;
-        private PictureBox pictureBox1;
-        private GroupBox groupBox5;
-        private Label label7;
-        private Label label8;
-        private Button button9;
-        private PictureBox pictureBox4;
-        private GroupBox groupBox2;
-        private Label label5;
-        private Label label1;
-        private Button btnorder1;
-        private PictureBox pictureBox2;
         private Button btndatBan;
+        private Button btntrangChu;
+        private TextBox textBox2;
+        private Label label2;
+        private TextBox txt_tensach;
+        private TextBox txt_tacgia;
+        private TextBox txt_masach;
+        private Label lb_tensach;
+        private Label lb_tacgia;
+        private GroupBox groupBox1;
+        private Label lb_masach;
+        private DataGridView dataGridView1;
+        private Button btn_lammoi;
+        private Button btn_xoa;
+        private Button btn_capnhat;
+        private Button btn_Them;
+        private GroupBox groupBox3;
+        private TextBox txt_timkiem;
+        private Button btn_timkiem;
+        private GroupBox groupBox4;
+        private GroupBox groupBox2;
+        private GroupBox grpmenu;
     }
 }

@@ -72,5 +72,10 @@ namespace booking
         {
             OpenChildForm(new Giohang());
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new DangKi());
+        }
     }
 }

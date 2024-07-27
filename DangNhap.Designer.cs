@@ -31,12 +31,12 @@
             groupBox2 = new GroupBox();
             pictureBox3 = new PictureBox();
             pictureBox1 = new PictureBox();
-            button1 = new Button();
             button2 = new Button();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             label1 = new Label();
             label4 = new Label();
+            button1 = new Button();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -76,16 +76,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 15;
             pictureBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(262, 195);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 5;
-            button1.Text = "Thoát";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -133,6 +123,16 @@
             label4.TabIndex = 21;
             label4.Text = "Đăng nhập hệ thống quản lý Booking";
             // 
+            // button1
+            // 
+            button1.Location = new Point(262, 195);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 5;
+            button1.Text = "Đăng kí";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // DangNhap
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -157,11 +157,11 @@
         private GroupBox groupBox2;
         private PictureBox pictureBox3;
         private PictureBox pictureBox1;
-        private Button button1;
         private Button button2;
         private TextBox textBox1;
         private TextBox textBox2;
         private Label label1;
         private Label label4;
+        private Button button1;
     }
 }

@@ -10,23 +10,11 @@ using System.Windows.Forms;
 
 namespace booking
 {
-    public partial class Ban : Form
+    public partial class DangKi : Form
     {
-        public Ban()
+        public DangKi()
         {
             InitializeComponent();
-        }
-
-        private void btntrangChu_Click(object sender, EventArgs e)
-        {
-            Menuu menuu = new Menuu();
-            menuu.Show();
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
