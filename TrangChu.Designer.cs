@@ -63,7 +63,7 @@
             button2.Name = "button2";
             button2.Size = new Size(217, 88);
             button2.TabIndex = 13;
-            button2.Text = "Giỏ hàng";
+            button2.Text = "77";
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
@@ -130,7 +130,7 @@
             grpmenu.Size = new Size(1312, 875);
             grpmenu.TabIndex = 24;
             grpmenu.TabStop = false;
-            grpmenu.Text = "Menu";
+            grpmenu.Text = "77";
             // 
             // TrangChu
             // 
