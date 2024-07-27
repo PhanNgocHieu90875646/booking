@@ -74,7 +74,7 @@
             button1.Name = "button1";
             button1.Size = new Size(217, 88);
             button1.TabIndex = 12;
-            button1.Text = "Bàn";
+            button1.Text = "Đặt Bàn";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click_1;
             // 
