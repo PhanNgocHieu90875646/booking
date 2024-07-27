@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace booking
 {
-    public partial class Menu : Form
+    public partial class TrangChu : Form
     {
-        public Menu()
+        public TrangChu()
         {
             InitializeComponent();
         }
@@ -34,7 +34,7 @@ namespace booking
         }
         private void btntrangChu_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Menu());//aa
+
         }
 
         private void btnkhuyenMai_Click(object sender, EventArgs e)
@@ -54,8 +54,23 @@ namespace booking
 
         private void btndatBan_Click(object sender, EventArgs e)
         {
-            ThanhToan thanhtoan=new ThanhToan();
+            ThanhToan thanhtoan = new ThanhToan();
             thanhtoan.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Ban());
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new Ban());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Giohang());
         }
     }
 }

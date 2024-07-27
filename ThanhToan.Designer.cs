@@ -34,6 +34,7 @@
             label1 = new Label();
             textBox2 = new TextBox();
             btntrangChu = new Button();
+            button1 = new Button();
             grpmenu.SuspendLayout();
             SuspendLayout();
             // 
@@ -93,12 +94,24 @@
             btntrangChu.Text = "Thanh Toán";
             btntrangChu.UseVisualStyleBackColor = false;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.IndianRed;
+            button1.Location = new Point(919, 539);
+            button1.Name = "button1";
+            button1.Size = new Size(163, 60);
+            button1.TabIndex = 23;
+            button1.Text = "Khuyến mãi";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // ThanhToan
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1661, 973);
+            Controls.Add(button1);
             Controls.Add(grpmenu);
             Controls.Add(btntrangChu);
             Name = "ThanhToan";
@@ -116,5 +129,6 @@
         private Label label1;
         private TextBox textBox2;
         private Button btntrangChu;
+        private Button button1;
     }
 }

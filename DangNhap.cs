@@ -9,7 +9,7 @@ namespace booking
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Menu dd = new Menu();
+            TrangChu dd = new TrangChu();
             if (textBox2.Text != "" && textBox1.Text != "")
             {
                 if (textBox2.Text == "a" && textBox1.Text == "12")

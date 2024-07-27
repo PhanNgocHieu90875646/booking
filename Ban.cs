@@ -16,5 +16,12 @@ namespace booking
         {
             InitializeComponent();
         }
+
+        private void btntrangChu_Click(object sender, EventArgs e)
+        {
+            Menuu menuu = new Menuu();
+            menuu.Show();
+
+        }
     }
 }

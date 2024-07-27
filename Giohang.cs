@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace booking
 {
-    public partial class ThanhToan : Form
+    public partial class Giohang : Form
     {
-        public ThanhToan()
+        public Giohang()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            KhuyenMai khuyenmai = new KhuyenMai();
-            khuyenmai.Show();
+            ThanhToan thanh= new ThanhToan();
+            thanh.Show();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace booking
 {
-    partial class Menu
+    partial class Menuu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
-            groupBox1 = new GroupBox();
-            button6 = new Button();
-            button5 = new Button();
-            btnnhaHang = new Button();
-            btnkhuyenMai = new Button();
-            btnmenu = new Button();
-            pictureBox5 = new PictureBox();
-            btntrangChu = new Button();
-            textBox1 = new TextBox();
-            btntiemKiem = new Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menuu));
             grpmenu = new GroupBox();
             groupBox4 = new GroupBox();
             label4 = new Label();
@@ -61,8 +51,6 @@
             btnorder1 = new Button();
             pictureBox2 = new PictureBox();
             btndatBan = new Button();
-            groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             grpmenu.SuspendLayout();
             groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -74,115 +62,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
-            // groupBox1
-            // 
-            groupBox1.Controls.Add(button6);
-            groupBox1.Controls.Add(button5);
-            groupBox1.Controls.Add(btnnhaHang);
-            groupBox1.Controls.Add(btnkhuyenMai);
-            groupBox1.Controls.Add(btnmenu);
-            groupBox1.Controls.Add(pictureBox5);
-            groupBox1.Controls.Add(btntrangChu);
-            groupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            groupBox1.Location = new Point(21, 12);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(252, 919);
-            groupBox1.TabIndex = 17;
-            groupBox1.TabStop = false;
-            // 
-            // button6
-            // 
-            button6.BackColor = SystemColors.ActiveCaption;
-            button6.Location = new Point(-1, 516);
-            button6.Name = "button6";
-            button6.Size = new Size(217, 88);
-            button6.TabIndex = 11;
-            button6.Text = "Nhân Viên";
-            button6.UseVisualStyleBackColor = false;
-            button6.Click += button6_Click;
-            // 
-            // button5
-            // 
-            button5.BackColor = SystemColors.ActiveCaption;
-            button5.Location = new Point(0, 438);
-            button5.Name = "button5";
-            button5.Size = new Size(217, 88);
-            button5.TabIndex = 10;
-            button5.Text = "Đánh Giá";
-            button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
-            // 
-            // btnnhaHang
-            // 
-            btnnhaHang.BackColor = SystemColors.ActiveCaption;
-            btnnhaHang.Location = new Point(0, 354);
-            btnnhaHang.Name = "btnnhaHang";
-            btnnhaHang.Size = new Size(217, 88);
-            btnnhaHang.TabIndex = 9;
-            btnnhaHang.Text = "Nhà Hàng";
-            btnnhaHang.UseVisualStyleBackColor = false;
-            // 
-            // btnkhuyenMai
-            // 
-            btnkhuyenMai.BackColor = SystemColors.ActiveCaption;
-            btnkhuyenMai.Location = new Point(0, 274);
-            btnkhuyenMai.Name = "btnkhuyenMai";
-            btnkhuyenMai.Size = new Size(217, 88);
-            btnkhuyenMai.TabIndex = 8;
-            btnkhuyenMai.Text = "Khuyến mãi";
-            btnkhuyenMai.UseVisualStyleBackColor = false;
-            btnkhuyenMai.Click += btnkhuyenMai_Click;
-            // 
-            // btnmenu
-            // 
-            btnmenu.BackColor = SystemColors.ActiveCaption;
-            btnmenu.Location = new Point(-1, 194);
-            btnmenu.Name = "btnmenu";
-            btnmenu.Size = new Size(217, 88);
-            btnmenu.TabIndex = 7;
-            btnmenu.Text = "Ban";
-            btnmenu.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.BackColor = Color.White;
-            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(0, 11);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(216, 92);
-            pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox5.TabIndex = 6;
-            pictureBox5.TabStop = false;
-            // 
-            // btntrangChu
-            // 
-            btntrangChu.BackColor = SystemColors.ActiveCaption;
-            btntrangChu.Location = new Point(0, 109);
-            btntrangChu.Name = "btntrangChu";
-            btntrangChu.Size = new Size(217, 88);
-            btntrangChu.TabIndex = 0;
-            btntrangChu.Text = "Menu";
-            btntrangChu.UseVisualStyleBackColor = false;
-            btntrangChu.Click += btntrangChu_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(478, 23);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(582, 27);
-            textBox1.TabIndex = 23;
-            // 
-            // btntiemKiem
-            // 
-            btntiemKiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btntiemKiem.Location = new Point(346, 19);
-            btntiemKiem.Name = "btntiemKiem";
-            btntiemKiem.RightToLeft = RightToLeft.Yes;
-            btntiemKiem.Size = new Size(109, 35);
-            btntiemKiem.TabIndex = 22;
-            btntiemKiem.Text = "Tìm kiếm";
-            btntiemKiem.UseVisualStyleBackColor = true;
-            // 
             // grpmenu
             // 
             grpmenu.Controls.Add(groupBox4);
@@ -190,10 +69,10 @@
             grpmenu.Controls.Add(groupBox5);
             grpmenu.Controls.Add(groupBox2);
             grpmenu.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            grpmenu.Location = new Point(279, 56);
+            grpmenu.Location = new Point(174, 49);
             grpmenu.Name = "grpmenu";
             grpmenu.Size = new Size(1312, 875);
-            grpmenu.TabIndex = 24;
+            grpmenu.TabIndex = 25;
             grpmenu.TabStop = false;
             grpmenu.Text = "Menu";
             // 
@@ -423,15 +302,14 @@
             // 
             btndatBan.BackColor = Color.IndianRed;
             btndatBan.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btndatBan.Location = new Point(1423, 15);
+            btndatBan.Location = new Point(1334, 12);
             btndatBan.Name = "btndatBan";
             btndatBan.Size = new Size(109, 43);
-            btndatBan.TabIndex = 21;
-            btndatBan.Text = "Đặt bàn";
+            btndatBan.TabIndex = 27;
+            btndatBan.Text = "Thêm món";
             btndatBan.UseVisualStyleBackColor = false;
-            btndatBan.Click += btndatBan_Click;
             // 
-            // Menu
+            // Menuu
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -439,13 +317,8 @@
             ClientSize = new Size(1661, 973);
             Controls.Add(btndatBan);
             Controls.Add(grpmenu);
-            Controls.Add(textBox1);
-            Controls.Add(btntiemKiem);
-            Controls.Add(groupBox1);
-            Name = "Menu";
-            Text = "Menu";
-            groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            Name = "Menuu";
+            Text = "Trangchu";
             grpmenu.ResumeLayout(false);
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();
@@ -460,21 +333,10 @@
             groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private GroupBox groupBox1;
-        private Button button6;
-        private Button button5;
-        private Button btnnhaHang;
-        private Button btnkhuyenMai;
-        private Button btnmenu;
-        private PictureBox pictureBox5;
-        private Button btntrangChu;
-        private TextBox textBox1;
-        private Button btntiemKiem;
         private GroupBox grpmenu;
         private GroupBox groupBox4;
         private Label label4;
