@@ -34,7 +34,7 @@ namespace booking
         }
         private void btntrangChu_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Menu());
+            OpenChildForm(new Menu());//aa
         }
 
         private void btnkhuyenMai_Click(object sender, EventArgs e)
