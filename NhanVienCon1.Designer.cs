@@ -139,6 +139,7 @@
             btn_capnhat.TabIndex = 1;
             btn_capnhat.Text = "Cập nhật";
             btn_capnhat.UseVisualStyleBackColor = true;
+            btn_capnhat.Click += btn_capnhat_Click;
             // 
             // btn_Them
             // 
