@@ -50,6 +50,7 @@
             lb_tensach = new Label();
             lb_tacgia = new Label();
             lb_masach = new Label();
+            btntrangChu = new Button();
             grpmenu.SuspendLayout();
             groupBox4.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -60,6 +61,7 @@
             // 
             // grpmenu
             // 
+            grpmenu.Controls.Add(btntrangChu);
             grpmenu.Controls.Add(groupBox4);
             grpmenu.Controls.Add(groupBox3);
             grpmenu.Controls.Add(groupBox2);
@@ -67,7 +69,7 @@
             grpmenu.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             grpmenu.Location = new Point(116, 79);
             grpmenu.Name = "grpmenu";
-            grpmenu.Size = new Size(1300, 547);
+            grpmenu.Size = new Size(1300, 633);
             grpmenu.TabIndex = 24;
             grpmenu.TabStop = false;
             grpmenu.Text = "Thông tin nhân viên";
@@ -268,6 +270,16 @@
             lb_masach.TabIndex = 0;
             lb_masach.Text = "Mã nhân viên";
             // 
+            // btntrangChu
+            // 
+            btntrangChu.BackColor = Color.IndianRed;
+            btntrangChu.Location = new Point(1074, 539);
+            btntrangChu.Name = "btntrangChu";
+            btntrangChu.Size = new Size(116, 47);
+            btntrangChu.TabIndex = 25;
+            btntrangChu.Text = "Đăng kí";
+            btntrangChu.UseVisualStyleBackColor = false;
+            // 
             // NhanVienCon1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -313,5 +325,6 @@
         private Label lb_tensach;
         private Label lb_tacgia;
         private Label lb_masach;
+        private Button btntrangChu;
     }
 }

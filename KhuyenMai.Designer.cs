@@ -41,20 +41,20 @@
             groupBox2 = new GroupBox();
             dataGridView1 = new DataGridView();
             groupBox1 = new GroupBox();
+            textBox4 = new TextBox();
+            label4 = new Label();
+            textBox3 = new TextBox();
+            label3 = new Label();
+            textBox1 = new TextBox();
+            label1 = new Label();
             textBox2 = new TextBox();
             label2 = new Label();
             txt_tensach = new TextBox();
+            txt_tacgia = new TextBox();
             txt_masach = new TextBox();
             lb_tensach = new Label();
-            lb_masach = new Label();
             lb_tacgia = new Label();
-            txt_tacgia = new TextBox();
-            textBox1 = new TextBox();
-            label1 = new Label();
-            textBox3 = new TextBox();
-            label3 = new Label();
-            textBox4 = new TextBox();
-            label4 = new Label();
+            lb_masach = new Label();
             grpmenu.SuspendLayout();
             groupBox4.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -73,7 +73,7 @@
             grpmenu.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             grpmenu.Location = new Point(129, 149);
             grpmenu.Name = "grpmenu";
-            grpmenu.Size = new Size(1493, 675);
+            grpmenu.Size = new Size(1493, 667);
             grpmenu.TabIndex = 26;
             grpmenu.TabStop = false;
             grpmenu.Text = "Thông tin khuyến mãi";
@@ -207,6 +207,54 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông tin bàn";
             // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(1078, 59);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(270, 27);
+            textBox4.TabIndex = 20;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(1078, 36);
+            label4.Name = "label4";
+            label4.Size = new Size(52, 20);
+            label4.TabIndex = 19;
+            label4.Text = "Giá trị";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(761, 129);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(270, 27);
+            textBox3.TabIndex = 18;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(761, 106);
+            label3.Name = "label3";
+            label3.Size = new Size(107, 20);
+            label3.TabIndex = 17;
+            label3.Text = "Ngày kết thúc";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(410, 129);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(296, 27);
+            textBox1.TabIndex = 16;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(410, 106);
+            label1.Name = "label1";
+            label1.Size = new Size(103, 20);
+            label1.TabIndex = 15;
+            label1.Text = "Ngày bắt đầu";
+            // 
             // textBox2
             // 
             textBox2.Location = new Point(761, 59);
@@ -230,6 +278,13 @@
             txt_tensach.Size = new Size(296, 27);
             txt_tensach.TabIndex = 8;
             // 
+            // txt_tacgia
+            // 
+            txt_tacgia.Location = new Point(69, 129);
+            txt_tacgia.Name = "txt_tacgia";
+            txt_tacgia.Size = new Size(287, 27);
+            txt_tacgia.TabIndex = 7;
+            // 
             // txt_masach
             // 
             txt_masach.Location = new Point(69, 59);
@@ -246,15 +301,6 @@
             lb_tensach.TabIndex = 2;
             lb_tensach.Text = "Tên khuyến mãi";
             // 
-            // lb_masach
-            // 
-            lb_masach.AutoSize = true;
-            lb_masach.Location = new Point(69, 36);
-            lb_masach.Name = "lb_masach";
-            lb_masach.Size = new Size(116, 20);
-            lb_masach.TabIndex = 0;
-            lb_masach.Text = "Mã khuyến mãi";
-            // 
             // lb_tacgia
             // 
             lb_tacgia.AutoSize = true;
@@ -264,60 +310,14 @@
             lb_tacgia.TabIndex = 1;
             lb_tacgia.Text = "Trạng thái";
             // 
-            // txt_tacgia
+            // lb_masach
             // 
-            txt_tacgia.Location = new Point(69, 129);
-            txt_tacgia.Name = "txt_tacgia";
-            txt_tacgia.Size = new Size(287, 27);
-            txt_tacgia.TabIndex = 7;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(410, 129);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(296, 27);
-            textBox1.TabIndex = 16;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(410, 106);
-            label1.Name = "label1";
-            label1.Size = new Size(103, 20);
-            label1.TabIndex = 15;
-            label1.Text = "Ngày bắt đầu";
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(761, 129);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(270, 27);
-            textBox3.TabIndex = 18;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(761, 106);
-            label3.Name = "label3";
-            label3.Size = new Size(107, 20);
-            label3.TabIndex = 17;
-            label3.Text = "Ngày kết thúc";
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(1078, 59);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(270, 27);
-            textBox4.TabIndex = 20;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(1078, 36);
-            label4.Name = "label4";
-            label4.Size = new Size(52, 20);
-            label4.TabIndex = 19;
-            label4.Text = "Giá trị";
+            lb_masach.AutoSize = true;
+            lb_masach.Location = new Point(69, 36);
+            lb_masach.Name = "lb_masach";
+            lb_masach.Size = new Size(116, 20);
+            lb_masach.TabIndex = 0;
+            lb_masach.Text = "Mã khuyến mãi";
             // 
             // KhuyenMai
             // 
