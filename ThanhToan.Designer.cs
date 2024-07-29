@@ -91,7 +91,7 @@
             grpmenu.Size = new Size(1416, 607);
             grpmenu.TabIndex = 26;
             grpmenu.TabStop = false;
-            grpmenu.Text = "Thông tin nhân viên";
+            grpmenu.Text = "Thông tin thanh toán";
             // 
             // groupBox4
             // 
@@ -204,7 +204,7 @@
             groupBox1.Size = new Size(1070, 174);
             groupBox1.TabIndex = 18;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Thông tin bàn";
+            groupBox1.Text = "Thông tin thanh toán";
             // 
             // textBox2
             // 
@@ -218,9 +218,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(761, 36);
             label2.Name = "label2";
-            label2.Size = new Size(74, 20);
+            label2.Size = new Size(181, 20);
             label2.TabIndex = 12;
-            label2.Text = "Thời gian";
+            label2.Text = "Phương thức thanh toán";
             // 
             // txt_tensach
             // 
@@ -248,9 +248,9 @@
             lb_tensach.AutoSize = true;
             lb_tensach.Location = new Point(410, 36);
             lb_tensach.Name = "lb_tensach";
-            lb_tensach.Size = new Size(71, 20);
+            lb_tensach.Size = new Size(57, 20);
             lb_tensach.TabIndex = 2;
-            lb_tensach.Text = "Số lượng";
+            lb_tensach.Text = "Số tiền";
             // 
             // lb_tacgia
             // 
@@ -266,9 +266,9 @@
             lb_masach.AutoSize = true;
             lb_masach.Location = new Point(69, 36);
             lb_masach.Name = "lb_masach";
-            lb_masach.Size = new Size(61, 20);
+            lb_masach.Size = new Size(112, 20);
             lb_masach.TabIndex = 0;
-            lb_masach.Text = "Mã bàn";
+            lb_masach.Text = "Mã thanh toán";
             // 
             // ThanhToan
             // 
