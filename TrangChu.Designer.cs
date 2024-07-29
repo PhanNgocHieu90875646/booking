@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrangChu));
             groupBox1 = new GroupBox();
+            button3 = new Button();
             button2 = new Button();
             button1 = new Button();
             button6 = new Button();
@@ -37,7 +38,6 @@
             pictureBox5 = new PictureBox();
             btntrangChu = new Button();
             grpmenu = new GroupBox();
-            button3 = new Button();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             SuspendLayout();
@@ -57,6 +57,17 @@
             groupBox1.Size = new Size(252, 919);
             groupBox1.TabIndex = 17;
             groupBox1.TabStop = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.ActiveCaption;
+            button3.Location = new Point(-1, 579);
+            button3.Name = "button3";
+            button3.Size = new Size(217, 88);
+            button3.TabIndex = 14;
+            button3.Text = "Đăng kí";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -132,18 +143,7 @@
             grpmenu.Size = new Size(1312, 875);
             grpmenu.TabIndex = 24;
             grpmenu.TabStop = false;
-            grpmenu.Text = "Thông tin nhà hàng";
-            // 
-            // button3
-            // 
-            button3.BackColor = SystemColors.ActiveCaption;
-            button3.Location = new Point(-1, 579);
-            button3.Name = "button3";
-            button3.Size = new Size(217, 88);
-            button3.TabIndex = 14;
-            button3.Text = "Đăng kí";
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            grpmenu.Text = "Thông tin trang chủ";
             // 
             // TrangChu
             // 
