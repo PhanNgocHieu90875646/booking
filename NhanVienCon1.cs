@@ -1,4 +1,4 @@
-﻿using booking.Models;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,7 +13,7 @@ namespace booking
 {
     public partial class NhanVienCon1 : Form
     {
-        SqlDuAn1Context _context = new SqlDuAn1Context();
+        
         public NhanVienCon1()
         {
            
